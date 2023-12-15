@@ -38,14 +38,16 @@ const ProjectsGrid = () => {
 				<div
 					className="
                         flex
+						flex-col md:flex-row lg:flex-row
                         justify-between
                         border-b border-primary-light
                         dark:border-secondary-dark
                         pb-3
                         gap-3
+						overflow-x-hidden
                         "
 				>
-					<div className="flex justify-between gap-2">
+					<div className="flex  justify-between gap-2 ">
 						<span
 							className="
                                 hidden
@@ -89,7 +91,7 @@ const ProjectsGrid = () => {
 						/>
 					</div>
 
-					<ProjectsFilter setSelectProject={setSelectProject} className="overflow-hidden max-w-sm"/>
+					<ProjectsFilter setSelectProject={setSelectProject} />
 				</div>
 			</div>
 
