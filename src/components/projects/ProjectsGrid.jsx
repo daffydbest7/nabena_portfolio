@@ -81,6 +81,7 @@ const ProjectsGrid = () => {
                                 dark:bg-ternary-dark
                                 text-primary-dark
                                 dark:text-ternary-light
+								w-full
                                 "
 							id="name"
 							name="name"
