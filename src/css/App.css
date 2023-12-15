@@ -5,7 +5,7 @@
 
 body {
 	font-family: 'GeneralSans-Variable';
-	
+	overflow-x: hidden;
 }
 
 /* Fonts */
